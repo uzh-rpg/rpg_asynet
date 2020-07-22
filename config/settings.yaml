@@ -1,0 +1,53 @@
+dataset:
+  # 'NCaltech101' or 'NCaltech101_ObjectDetection', 'Prophesee', 'NCars'
+  name: 'NCaltech101'
+  event_representation: 'histogram'  # ['histogram', 'event_queue']
+  ncaltech101:
+    dataset_path: "data/N-Caltech101"
+    # Single classes e.g. ['anchor', 'helicopter', 'Motorbikes'] or 'all' for all classes
+    object_classes: 'all'
+    height: 180
+    width: 240
+    nr_events_window: 50000
+  ncars:
+    dataset_path: 'data/N-Cars'
+    object_classes: ['no_car', 'car']
+    height: 100
+    width: 120
+    nr_events_window: 25000
+  ncaltech101_objectdetection:
+    dataset_path: ""
+    object_classes: 'all'
+    height: 180
+    width: 240
+    nr_events_window: 25000
+  prophesee:
+    dataset_path: "data/PropheseeG1"
+    object_classes: 'all'
+    height: 240
+    width: 304
+    nr_events_window: 25000
+
+dir:
+  log: 'log/'
+model:
+  # ['fb_sparse_vgg', 'dense_vgg', 'fb_sparse_object_det', 'dense_object_det']
+  model_name: 'fb_sparse_vgg'
+optim:
+  batch_size: 30
+  init_lr: 1e-4
+  # Set to "steps: ~" if no scheduler is needed
+  steps_lr: [500, 1000, 1500]
+  factor_lr: 0.1
+checkpoint:
+  resume_training: False
+  resume_file: ''
+  # Networks trained for classification can be reused as starting point for object detection networks on trained
+  # the same dataset
+  use_pretrained: False
+  pretrained_dense_vgg: ''
+  pretrained_sparse_vgg: ''
+hardware:
+  # num_cpu_workers: {-1: auto, 0: main thread, >0: ...}
+  num_cpu_workers: -1
+  gpu_device: 0  # [0 or 'cpu']
