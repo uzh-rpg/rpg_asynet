@@ -62,7 +62,7 @@ Download location of the datasets:
 * [Object Detection NCaltech101](https://www.garrickorchard.com/datasets/n-caltech101)
 * [Prophesee Gen1 Automotive](https://www.prophesee.ai/2020/01/24/prophesee-gen1-automotive-detection-dataset/):
 
-To test the code, make a directory `data/` in the root of the repository and download on the the datasets:
+To test the code, make a directory `data/` in the root of the repository and download one of the datasets:
 
     mkdir data
     cd data
