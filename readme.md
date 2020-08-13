@@ -1,6 +1,6 @@
 # Event-based Asynchronous Sparse Convolutional Networks
 <p align="center">
-  <a href="https://youtu.be/g_I5k_QFQJA">
+  <a href="https://youtu.be/VD7Beh_-7eU">
     <img src="resources/thumbnail.png" alt="Video to Events" width="400"/>
   </a>
 </p>
