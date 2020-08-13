@@ -1,6 +1,6 @@
 # Event-based Asynchronous Sparse Convolutional Networks
 <p align="center">
-  <a href="https://youtu.be/g_I5k_QFQJA">
+  <a href="https://youtu.be/VD7Beh_-7eU">
     <img src="resources/thumbnail.png" alt="Video to Events" width="400"/>
   </a>
 </p>
@@ -62,7 +62,7 @@ Download location of the datasets:
 * [Object Detection NCaltech101](https://www.garrickorchard.com/datasets/n-caltech101)
 * [Prophesee Gen1 Automotive](https://www.prophesee.ai/2020/01/24/prophesee-gen1-automotive-detection-dataset/):
 
-To test the code, make a directory `data/` in the root of the repository and download on the the datasets:
+To test the code, make a directory `data/` in the root of the repository and download one of the datasets:
 
     mkdir data
     cd data

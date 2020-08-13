@@ -25,7 +25,7 @@ opencv-python==4.2.0.32
 parso==0.6.2
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow==7.0.0
+Pillow==7.1.0
 prompt-toolkit==3.0.3
 protobuf==3.11.3
 ptyprocess==0.6.0
