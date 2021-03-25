@@ -43,7 +43,7 @@ To build the cpp bindings for the event representation tool, you can follow the 
 For the bindings for asynchronous sparse convolutions, we first need to clone the most recent version of [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) into the `include` folder. This requires [Mercurial](https://www.mercurial-scm.org/). In addition, pybind11 is required.
 
     cd async_sparse_py/include
-    hg clone https://bitbucket.org/eigen/eigen
+    git clone https://gitlab.com/libeigen/eigen.git
     conda install -c conda-forge pybind11
   
 Finally, the bindings can be installed
