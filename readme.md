@@ -40,7 +40,7 @@ To build the cpp bindings for the event representation tool, you can follow the 
 
     pip install event_representation_tool/
 
-For the bindings for asynchronous sparse convolutions, we first need to clone the most recent version of [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) into the `include` folder. In addition, pybind11 is required.
+For the bindings for asynchronous sparse convolutions, we first need to clone the 3.4.0-rc version of [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) into the `include` folder. In addition, pybind11 is required.
 
     cd async_sparse_py/include
     git clone https://gitlab.com/libeigen/eigen.git --branch 3.4.0-rc1
